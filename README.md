@@ -1,9 +1,9 @@
 # Description
-exploratory spruce fractional cover mapping using LVIS, AVIRIS, and NEON data
+An exploratory spruce fractional cover mapping using LVIS, AVIRIS, and NEON data
 
 
 This goal of this project was to assess the utility of airborne data collected as part of NASA's ABoVE airborne campaign (AVIRIS-NG hyperspectral and LVIS waveform LiDAR data) for estimating percent cover of black spruce forest. 
-While this workflow could be expanded over a larger area, this small project was focused on an area near Fairbanks, ALaska, where NEON field measurements of tree inventory are available across a gradient of environmental conditions. 
+While this workflow could be expanded over a larger area, this small project was focused on an area near Fairbanks, Alaska, where NEON field measurements of tree inventory are available across a gradient of environmental conditions. 
 The NEON field data was manipulated and used as the "ground-truth" values for the proprtional cover of black spruce. 
 AVIRIS-NG spectral bands and LVIS relative height metrics were used as predictors in a simple model. 
 The main bottleneck in this project was loading and intersecting these large geospatial datasets to produce a training dataset containing plot-level values for all datasets. 
