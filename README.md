@@ -1,5 +1,5 @@
 # Description
-An exploratory spruce fractional cover mapping using LVIS, AVIRIS, and NEON data
+An exploratory spruce fractional cover mapping project using LiDAR, hyperspectral, and field data
 
 
 This goal of this project was to assess the utility of airborne data collected as part of NASA's ABoVE airborne campaign (AVIRIS-NG hyperspectral and LVIS waveform LiDAR data) for estimating percent cover of black spruce forest. 
